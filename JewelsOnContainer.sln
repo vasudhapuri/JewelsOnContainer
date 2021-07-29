@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8AC39A47-44B2-42AB-A2A0-D51CB60B59D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A3B18895-F64E-49D4-AAF4-9376C3544AD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogAPI", "ProductCatalogAPI\ProductCatalogAPI.csproj", "{16F46D60-40B4-4347-ACBF-CCC9C109ACBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{4D66A4B5-7277-4F81-8625-FFB86CEA1641}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FCAD70ED-C136-49EB-9D82-42CE45C93E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F46D60-40B4-4347-ACBF-CCC9C109ACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F46D60-40B4-4347-ACBF-CCC9C109ACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F46D60-40B4-4347-ACBF-CCC9C109ACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F46D60-40B4-4347-ACBF-CCC9C109ACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAD70ED-C136-49EB-9D82-42CE45C93E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAD70ED-C136-49EB-9D82-42CE45C93E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAD70ED-C136-49EB-9D82-42CE45C93E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAD70ED-C136-49EB-9D82-42CE45C93E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B18895-F64E-49D4-AAF4-9376C3544AD3} = {8AC39A47-44B2-42AB-A2A0-D51CB60B59D3}
+		{16F46D60-40B4-4347-ACBF-CCC9C109ACBB} = {A3B18895-F64E-49D4-AAF4-9376C3544AD3}
+		{4D66A4B5-7277-4F81-8625-FFB86CEA1641} = {8AC39A47-44B2-42AB-A2A0-D51CB60B59D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3ECA7C2-3320-4EB5-A7B3-D9042D7FE401}
+	EndGlobalSection
+EndGlobal
